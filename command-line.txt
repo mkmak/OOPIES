@@ -1,0 +1,11 @@
+
+compile command:
+
+javac -classpath antlr-4.7.2-complete.jar main.java GUI.java JavaLexer.java JavaParser.java ClassInfo.java MethodInfo.java
+
+run command:
+
+java -classpath "";antlr-4.7.2-complete.jar; GUI
+
+
+line 161: @SuppressWarnings("unchecked")
